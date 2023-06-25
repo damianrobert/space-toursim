@@ -1,12 +1,12 @@
 "use client";
 
 import { useState } from "react";
-import Rocket from "./Rocket";
-import RocketInfo from "./RocketInfo";
-import Spaceport from "./Spaceport";
-import SpaceportInfo from "./SpaceportInfo";
-import SpaceCapsule from "./SpaceCapsule";
-import SpaceCapsuleInfo from "./SpaceCapsuleInfo";
+import Rocket from "@/components/Rocket";
+import RocketInfo from "@/components/RocketInfo";
+import Spaceport from "@/components/Spaceport";
+import SpaceportInfo from "@/components/SpaceportInfo";
+import SpaceCapsule from "@/components/SpaceCapsule";
+import SpaceCapsuleInfo from "@/components/SpaceCapsuleInfo";
 
 export default function NavigateTechnology() {
   const [presentation, setPresentation] = useState(Rocket);
