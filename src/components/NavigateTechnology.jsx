@@ -3,8 +3,8 @@
 import { useState } from "react";
 import Rocket from "@/components/Rocket";
 import RocketInfo from "@/components/RocketInfo";
-import Spaceport from "@/components/Spaceport";
-import SpaceportInfo from "@/components/SpaceportInfo";
+import Spaceport from "@/components/SpacePort";
+import SpaceportInfo from "@/components/SpacePortInfo";
 import SpaceCapsule from "@/components/SpaceCapsule";
 import SpaceCapsuleInfo from "@/components/SpaceCapsuleInfo";
 
